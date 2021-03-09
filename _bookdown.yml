@@ -1,0 +1,19 @@
+output_dir: "docs"
+book_filename: "IntroR"
+language:
+  ui:
+    chapter_name: "Capítulo "
+delete_merged_file: true
+new_session: no
+clean: ["IntroR.bbl", "R-packages.bib"]
+rmd_files: ["index.Rmd"
+            ,"0100-PART_fundamentosr.Rmd"
+            ,"0101-intro.Rmd"
+            ,"0102-manipulacao.Rmd"
+            ,"0103-visualizacao_basico.Rmd"
+            ,"0200-PART-ciendados.Rmd"
+            ,"0201-tidyInstall.Rmd"
+            ,"0202-importa.Rmd"
+            ,"0203-pipe.Rmd"
+            ,"0204-format.Rmd"
+            ,"0205-ggplot2.Rmd"]
